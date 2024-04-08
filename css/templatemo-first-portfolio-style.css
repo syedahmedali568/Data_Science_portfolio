@@ -69,15 +69,15 @@ h6 {
   letter-spacing: -1px;
 }
 
-h1 {
-  font-size: var(--h1-font-size);
-  letter-spacing: -3px;
+h2 {
+  font-size: var(--h2-font-size);
+  letter-spacing: -1px;
 }
 
 h2 {
   font-size: var(--h2-font-size);
-  color: var(--secondary-color);
-  letter-spacing: -3px;
+  color: var(--black-color);
+  letter-spacing: -1px;
 }
 
 h3 {
@@ -334,7 +334,7 @@ strong {
 
 .navbar {
   background: transparent;
-  position: absolute;
+  /* position: absolute; */
   z-index: 9;
   right: 0;
   left: 0;
@@ -946,7 +946,7 @@ strong {
 
   .hero {
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 400px;
   }
 
   .hero-text {
@@ -1109,3 +1109,11 @@ strong {
     
   }
 }
+@media screen and (max-width: 455px){
+.hero {
+    padding-top: 50px;
+    padding-bottom: 4px;
+    background: none;
+}
+}
+
