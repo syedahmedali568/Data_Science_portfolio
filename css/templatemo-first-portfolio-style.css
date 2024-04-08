@@ -469,7 +469,6 @@ strong {
 -----------------------------------------*/
 .hero {
   background: var(--secondary-color);
-  position: relative;
   overflow: hidden;
   padding-top: 330px;
   padding-bottom: 330px;
@@ -1082,3 +1081,31 @@ strong {
   box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
 }
 
+@media screen and (max-width: 455px) {
+  .hero-image {
+      display: none;
+  }
+}
+
+.perfect {
+      display: none;
+
+}
+
+
+@media screen and (max-width: 455px) {
+  .perfect {
+      display: inline-block;
+      position: relative !important;
+      z-index: 111px;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .hero-image-wrap {
+    background: none;
+    position: absolute;
+    
+  }
+}
